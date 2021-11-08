@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Ödev</title>
+    <link rel="stylesheet" href="odev.css">
+   
+    </head>
+      <body onload="startTime()">
+        <h1>
+          KODLUYORUZ
+           </h1>
+              <p id="person"></p>
+              <div id="txt">
+              
+              </div>
+               
+                <script>
+                  let name = prompt('What is your name?');
+                  document.getElementById("person").innerHTML = `Merhaba,  ${name}! Hoş Geldin!`;
+
+                  function startTime() {
+                  const today = new Date();
+                  let h = today.getHours();
+                  let m = today.getMinutes();
+                  let s = today.getSeconds();
+                  m = checkTime(m);
+                  s = checkTime(s);
+                  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+                  setTimeout(startTime, 1000);
+                  }
+  
+                  function checkTime(i) {
+                  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                  return i;
+                  }
+                  </script>
+                  <br><br>
+                  <script>
+                  var today = new Date();
+                  var dd = String(today.getDate()).padStart(2, '0');
+                  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                  var yyyy = today.getFullYear();
+
+                  today = mm + '/' + dd + '/' + yyyy;
+                  document.write(today);
+                </script>
+
+
+
+
+      </body>
+</html>
