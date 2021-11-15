@@ -1,0 +1,85 @@
+html{
+    background-color: white;
+    max-width: 100%;
+}
+
+.searchbar{
+    text-align: center;
+}
+.logo{
+    padding-left: 500px;
+    padding-top: 120px;
+    width: 400px;
+}
+.search{
+    width: 416px;   
+    margin-left: 38px;
+}
+
+.fa fa-search two{
+    width: 80px;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-left: 45px;
+    
+}
+.text{
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 30px;
+    
+}
+
+.manifest {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.column {
+    float:left;
+    width: 33%;    
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.nbm{
+    text-align: center;
+}
+
+.one{
+    background-color: #7ee5da;
+    margin-right: 3px;
+}
+
+.two{
+    background-color: #70ccc2;
+    margin-right: 3px;
+    padding-bottom: 7px;
+}
+
+.three{
+    background-color: #62b3aa;
+    padding-bottom: 13px;
+    font-size: 15px;
+}
+
+.special{
+    margin-bottom: 10px;
+}
+.last{
+    width: 100%;
+}
+
+.symbol{
+    font-size: 17px;
+}
+
+.topplace{
+    background-color: #eeeeee;
+}
+
+.cbn{
+    margin-top: -11px
+}
